@@ -9,4 +9,4 @@ our assembly file):
 We flash our micro with the following command (this is assumming our flasher's
 device file is ugen0.2 and hello.hex is the output of avra that we are
 interested int):
-   doas avrdude -F -p m16 -c usbasp -P/dev/ugen0.2 -U flash:w:hello.hex
+   doas avrdude -p m16 -c usbasp -P/dev/ugen0.2 -U flash:w:hello.hex
